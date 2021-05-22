@@ -1,0 +1,185 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.headers {
+padding-right: 20px;
+width: 200px;
+vertical-align: top;
+text-align: right;
+font-size: 1.2em;
+color:rgb(128, 125, 125);
+}
+.printContainer{
+    display: block;
+    margin-left: 7%;
+    margin-right: auto;
+    width: 100vw;
+    margin-top: 100px;
+    height: auto;
+    
+}
+    
+.pageHeader{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    padding: 20px;
+    padding-left:10%;
+    
+}
+.pageHeaderTitles{
+    /* position: absolute;
+    bottom: 0;
+    left: 230px; */
+    /* padding-bottom: 15px; */
+    padding-top: 35px;
+    padding-left: 5px;
+}
+.subtitle{
+    color:pink;
+    margin-top: 2px;
+}
+.credits{
+    font-size: .5em;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 150px;
+}
+.icon{
+    height: 90px;
+}
+.editPage{
+     display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 70vw;
+    margin-top: 50px;
+    height: auto;
+
+   
+}
+
+.topButtons{
+    margin-top: 50px;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 10%;
+}
+.editSectionHeader{
+    margin-top:25px;
+    margin-bottom: 10px;
+}
+.input{
+    margin-right:2px;
+    margin-bottom: 5px;
+}
+.sectionButtonAdd{
+    margin-right:2px;
+    border: none;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: rgb(171, 235, 171);
+    cursor: pointer;
+}
+.sectionButtonCancel{
+    margin-right:2px;
+    border: none;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: rgb(243, 220, 178);
+    cursor: pointer;
+}
+.sectionButtonClear{
+    margin-right:2px;
+    border: none;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: rgb(250, 171, 171);
+    cursor: pointer;
+}
+.resetButton{
+    size: 3em;
+    margin-right:2px;
+    border: none;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: rgb(247, 86, 86);
+    cursor: pointer;
+    width: 100px;
+    height:40px;
+    color:white;
+    font-size:14px;
+    font-weight: bold;
+}
+.editButton{
+    margin-right:2px;
+    border: none;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: rgb(230, 130, 0);
+    cursor: pointer;
+    color:white;
+    width: 100px;
+    height:40px;
+    font-size:14px;
+    font-weight: bold;
+}
+.previewButton{
+margin-right:2px;
+    border: none;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: rgb(67, 211, 74);
+    cursor: pointer;
+    color:white;
+    width: 100px;
+    height:40px;
+    font-size:14px;
+    font-weight: bold;
+}
+.pdfButton{
+    border: none;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: rgb(67, 211, 74);
+    cursor: pointer;
+    color:white;
+    width: 202px;
+    height:40px;
+    font-size:14px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 5px;
+
+}
+td{
+    font-size: 12px;
+    margin-bottom:10px;
+}
+table{
+    margin-bottom: 30px;
+}
+.boldPrint{
+    font-weight: bold;
+    
+}
+.greyPrint{
+    color:rgb(68, 67, 67);
+    font-style: oblique;
+}
+.extraMarginPrint{
+    margin-left: 15px;
+}

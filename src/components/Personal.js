@@ -11,9 +11,10 @@ class Personal extends React.Component {
 
     render() {
         return (
-            <div>
-                <form>
+            <div >
+                <form >
                     <input
+                        className="input"
                         type="text"
                         name="firstName"
                         placeholder="First name"
@@ -21,6 +22,7 @@ class Personal extends React.Component {
                         onChange={this.props.handleChange}
                     />
                     <input
+                        className="input"
                         type="text"
                         name="lastName"
                         placeholder="Last name"
@@ -28,6 +30,7 @@ class Personal extends React.Component {
                         onChange={this.props.handleChange}
                     />
                     <input
+                        className="input"
                         type="text"
                         name="email"
                         placeholder="Email"
@@ -35,6 +38,7 @@ class Personal extends React.Component {
                         onChange={this.props.handleChange}
                     />
                     <input
+                        className="input"
                         type="text"
                         name="phone"
                         placeholder="Phone"
@@ -42,7 +46,7 @@ class Personal extends React.Component {
                         onChange={this.props.handleChange}
                     />
                 </form>
-
+                <button className="sectionButtonClear" onClick={this.props.clearPersonal}>Clear</button>
             </div>
         )
     }

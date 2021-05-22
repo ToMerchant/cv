@@ -1,5 +1,6 @@
 import React from "react"
 
+
 class Header extends React.Component {
     constructor() {
         super()
@@ -7,9 +8,14 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>CV Maker</h1>
-                <button name="edit" onClick={this.props.editOrPreview}>Edit/ Preview</button>
+            <div className="pageHeader">
+                <img src="/apple-touch-icon.png" alt="logo" className="icon" />
+                <div className="pageHeaderTitles">
+                    <h1>10-Second CV </h1>
+                    <h3 className="subtitle">Create a minimalist CV in seconds</h3>
+                </div>
+                {/* <button name="edit" onClick={this.props.editOrPreview}>Edit/ Preview</button>
+                <button onClick={this.props.clearAll}>Reset</button> */}
 
             </div>
         )

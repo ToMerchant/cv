@@ -1,4 +1,5 @@
 import React from "react"
+import uniqid from "uniqid"
 
 
 class Education extends React.Component {
@@ -7,17 +8,28 @@ class Education extends React.Component {
     }
 
     render() {
+        // if (this.props.university.length > 0) {
+        //     return (
+        //         <div>
+
+        //         </div>
+        //     )
+        // }
+        // else {
         return (
+
             <div>
-                <form>
+                <form >
                     <input
+                        className="input"
                         type="text"
                         name="university"
                         placeholder="University"
-                        value={this.props.unveristy}
+                        value={this.props.university}
                         onChange={this.props.handleChange}
                     />
                     <input
+                        className="input"
                         type="text"
                         name="degree"
                         placeholder="Degree"
@@ -25,23 +37,33 @@ class Education extends React.Component {
                         onChange={this.props.handleChange}
                     />
                     <input
+                        className="input"
                         type="text"
-                        name="year"
-                        placeholder="Year"
-                        value={this.props.year}
+                        name="yearStart"
+                        placeholder="Year began"
+                        value={this.props.yearStart}
                         onChange={this.props.handleChange}
                     />
                     <input
+                        className="input"
                         type="text"
-                        name="notes"
-                        placeholder="Notes"
-                        value={this.props.notes}
+                        name="yearEnd"
+                        placeholder="Year completed"
+                        value={this.props.yearEnd}
                         onChange={this.props.handleChange}
                     />
+
                 </form>
+                <button className="sectionButtonAdd" onClick={this.props.handleClickEducation}>Add</button>
+                <button className="sectionButtonCancel" onClick={this.props.cancelCurrentEducation}>Cancel</button>
+                <button className="sectionButtonClear" onClick={this.props.clearAllEducation}>Clear all</button >
+
+
+
 
             </div>
         )
+        //}
     }
 }
 

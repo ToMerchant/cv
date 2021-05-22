@@ -1,6 +1,7 @@
 import React from "react"
 
 
+
 class Header extends React.Component {
     constructor() {
         super()
@@ -9,7 +10,7 @@ class Header extends React.Component {
     render() {
         return (
             <div className="pageHeader">
-                <img src="/apple-touch-icon.png" alt="logo" className="icon" />
+                <img src="./public/apple-touch-icon.png" className="icon" />
                 <div className="pageHeaderTitles">
                     <h1>10-Second CV </h1>
                     <h3 className="subtitle">Create a minimalist CV in seconds</h3>
